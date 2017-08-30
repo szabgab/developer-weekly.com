@@ -1,0 +1,107 @@
+{
+   "date" : "2017-09-08",
+   "subject" : "",
+   "header" : [
+   ],
+   "footer" : [
+   ],
+   "chapters" : [
+      {
+         "title" : "Headlines",
+         "header" : "",
+         "footer" : "",
+         "entries" : [
+            {
+               "title" : "",
+               "author" : "",
+               "text" : "",
+               "url" : "",
+               "ts" : "2017.09",
+               "tags" : []
+            }
+         ]
+      },
+      {
+         "title" : "Sponsors",
+         "sponsor" : 1,
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Announcements",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Articles",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Discussion",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Testing",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Code",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "Web",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "CPAN",
+         "entries" : [
+          ]
+      },
+
+      {
+         "title" : "Fun",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "Grants",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "Slides",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "Perl 5",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Videos",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Perl 6",
+         "entries" : [
+         ]
+      },
+      {
+         "title" : "Other",
+         "entries" : [
+          ]
+      },
+      {
+         "title" : "Training",
+         "entries" : [
+         ]
+      }
+   ]
+}

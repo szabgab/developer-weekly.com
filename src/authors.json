@@ -1,0 +1,21 @@
+{
+     "jaime_cochran" : {
+         "name" : "Jaime Cochran",
+         "twitter" : "ACKFlags",
+         "linkedin" : "https://www.linkedin.com/in/jaimecochran/",
+         "home" : "https://ethi.cx/",
+         "img" : "img/jaime_cochran.png"
+      },
+      "gabor_szabo" : {
+          "name" : "Gábor Szabó",
+          "twitter" : "szabgab",
+          "linkedin" : "https://www.linkedin.com/in/szabgab",
+          "home" : "https://szabgab.com/"
+      },
+      "claire_tsai" : {
+          "name' : "Claire Tsai",
+          "twitter": "clairetsai",
+          "linkedin: "https://www.linkedin.com/in/clairepytsai/",
+          "img" : "img/claire_tsai.jpg"
+      }
+}
