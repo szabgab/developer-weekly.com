@@ -1,2 +1,2 @@
-The content of http://developer-weekly.com/
+The content of https://developer-weekly.com/
 

@@ -23,6 +23,7 @@ def generate(filename):
             data = json.load(fh)
 
         data['id'] = cnt
+        data['editor'] = authors[ data['editor'] ]
         for ch in data['chapters']:
             for e in ch['entries']:
                if e['author']:

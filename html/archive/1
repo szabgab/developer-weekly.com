@@ -23,10 +23,21 @@ body {
        width: 280px;
     }
 }
+
+#header {
+  text-align: left;
+}
+
 .chapter {
   text-align: left;
 }
 .author img {
+  width: 80px;
+  float: right;
+  margin: 10px;
+}
+
+#editor img {
   width: 80px;
   float: right;
   margin: 10px;
@@ -36,7 +47,25 @@ body {
 <body>
 <div id="content">
 <h1>Welcome to the Developer Weekly #1</h1>
-Published on 2017-09-01
+<div id="editor">
+Published on 2017-09-01 by Gábor Szabó
+                       <img src="https://developer-weekly.com/img/gabor_szabo.png"/>
+</div>
+<div id="header">
+
+   Hi there and welcome!<br>
+
+   I am flattered by all the people who have subscribed to this newsletter even before I published the first episode. Thank you for your trust!<br>
+
+   The plan is to follow lots of Engineering blogs by the leading tech companies and include additional articles from experts in the field.<br>
+
+   Some of you might know that I have been running another weekly newsletter for over 6 years, but this is different. There are a lot more sources to select from and the subject is much broader. I am going to cover subject relevant to several fields and thus the name if the newsletter might be a bit misleading. I am going to cover the Development side, the Operations side, but I am also very interested in how monitoring can impact the business. Last, but probably the most important, the culture of the companies and how that might impact on their performance.<br>
+
+   In any case, let's see where does this go!<br>
+
+   Enjoy the first episode!<br>
+
+</div>
 
 
   <hr>
@@ -90,6 +119,9 @@ Published on 2017-09-01
   </div>
 
 
+</div>
+<div id="footer">
+<a href="*|UNSUB|*">Unsubscribe from this list.</a>
 </div>
 
 <script>

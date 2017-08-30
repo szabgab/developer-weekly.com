@@ -23,10 +23,21 @@ body {
        width: 280px;
     }
 }
+
+#header {
+  text-align: left;
+}
+
 .chapter {
   text-align: left;
 }
 .author img {
+  width: 80px;
+  float: right;
+  margin: 10px;
+}
+
+#editor img {
   width: 80px;
   float: right;
   margin: 10px;
@@ -36,7 +47,15 @@ body {
 <body>
 <div id="content">
 <h1>{{ episode.subject }} #{{ episode.id }}</h1>
-Published on {{ episode.date }}
+<div id="editor">
+Published on {{ episode.date }} by {{ episode.editor.name }}
+                       <img src="https://developer-weekly.com/{{ episode.editor.img }}"/>
+</div>
+<div id="header">
+{% for row in episode.header %}
+   {{ row }}<br>
+{% endfor %}
+</div>
 
 {% for ch in episode.chapters %}
   <hr>
@@ -59,6 +78,9 @@ Published on {{ episode.date }}
   </div>
 {% endfor %}
 
+</div>
+<div id="footer">
+<a href="*|UNSUB|*">Unsubscribe from this list.</a>
 </div>
 
 {% include "google_analytics.html" %}
