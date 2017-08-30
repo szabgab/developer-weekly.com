@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>{{ episode.subject }}</title>
+  <style>
+body {
+   text-align: center;
+}
+#content {
+   margin: auto;
+   width: 680px;
+}
+@media screen and (max-width: 700px) {
+    #content {
+       width: 480px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #content {
+       width: 280px;
+    }
+}
+
+  </style>
+</head>
+<body>
+<div id="content">
+<h1>{{ episode.subject }}</h1>
+
+{% for ch in episode.chapters %}
+  <br>
+  {{ ch.title }}
+{% endfor %}
+
+</div>
+
+{% include "google_analytics.html" %}
+
+</body>
+</html>

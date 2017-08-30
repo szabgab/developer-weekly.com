@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>{{ episode.subject }}</title>
+  <style>
+body {
+   text-align: center;
+}
+#content {
+   margin: auto;
+   width: 680px;
+}
+@media screen and (max-width: 700px) {
+    #content {
+       width: 480px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #content {
+       width: 280px;
+    }
+}
+.chapter {
+  text-align: left;
+}
+  </style>
+</head>
+<body>
+<div id="content">
+<h1>{{ episode.subject }} #{{ episode.id }}</h1>
+Published on {{ episode.date }}
+
+{% for ch in episode.chapters %}
+  <hr>
+  <div class="chapter">
+    <h2>{{ ch.title }}</h2>
+    {% for e in ch.entries %}
+       <div class="episode">
+           <h3><a href="{{ e.url }}">{{ e.title }}</a></h3> 
+           {% if e.author %}
+              by <a href="{{ e.author.linkedin }}">{{ e.author.name }}</a><br>
+           {% endif %}
+           {{ e.text }}
+           {% if e.img %}
+           <img src="https://developer-weekly.com/{{ e.img }}" />
+           {% endif %}
+       </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+</div>
+
+{% include "google_analytics.html" %}
+
+</body>
+</html>

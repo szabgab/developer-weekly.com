@@ -8,24 +8,39 @@ from jinja2 import Environment, PackageLoader, FileSystemLoader
 
 logging.basicConfig(filename='generate.log', level=logging.DEBUG)
 
+logging.info('Start')
+env = Environment(
+    loader = FileSystemLoader(os.getcwd() + '/templates'),
+)
+with open('src/authors.json') as fh:
+    authors = json.load(fh)
+
 def generate(filename):
     logging.info('processing {}'.format(filename))
+    cnt = re.search(r'^src/(\d+)\.json$', filename).group(1)
+    logging.info(cnt)
     try:
         with open(filename) as fh:
             data = json.load(fh)
-        #with open(filename, 'w') as fh:
-        #    json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+
+        for ch in data['chapters']:
+            for e in ch['entries']:
+               if e['author']:
+                   e['author'] = authors[ e['author'] ]
+               else:
+                   del(e['author'])
+ 
+        template = env.get_template('page.html') 
+        with open('html/{}.html'.format(cnt), 'w') as fh:
+            fh.write(template.render(episode=data))
     except Exception as e:
         print('Exception while processing {}'.format(filename))
         print(e)
 
 
 def run():
-    logging.info('Start')
-    env = Environment(
-        loader = FileSystemLoader(os.getcwd() + '/templates'),
-    )
-    
+
+    episodes = []
     for filename in glob.glob("src/*.json"):
         if filename == 'src/next.json':
             continue
@@ -33,12 +48,12 @@ def run():
             continue
         if not re.search(r'^src/\d+\.json$', filename):
             raise Exception("Invalid filename {}".format(filename))
-        generate(filename)
+        episodes.append( generate(filename) )
     
-    template = template = env.get_template('index.html') 
+    template = env.get_template('index.html') 
     with open('html/index.html', 'w') as fh:
         fh.write(template.render(next='2017-09-01'))
-
+# generate each page + generate the latest as e-mail
 run()
 
 # vim: expandtab

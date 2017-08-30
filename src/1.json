@@ -32,7 +32,7 @@
          "entries" : [
             {
                "title" : "The WireX Botnet: How Industry Collaboration Disrupted a DDoS Attack",
-               "author" : "Jaime Cochran",
+               "author" : "jaime_cochran",
                "text" : "Apparently this is the first time Android phones were used to launch a Denial of Service Attacks. About 300 legitimate-looking, and actually working applications included additional code that remained active even after the application was moved to the background and could access the Internet. Only the cooperation of several players in the industry allowed the quick identification of the botnet. That made it possible to stop it.",
                "url" : "https://blog.cloudflare.com/the-wirex-botnet/",
                "ts" : "2017.08.28",
