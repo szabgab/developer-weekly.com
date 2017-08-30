@@ -18,11 +18,11 @@ with open('src/authors.json') as fh:
 def generate(filename):
     logging.info('processing {}'.format(filename))
     cnt = re.search(r'^src/(\d+)\.json$', filename).group(1)
-    logging.info(cnt)
     try:
         with open(filename) as fh:
             data = json.load(fh)
 
+        data['id'] = cnt
         for ch in data['chapters']:
             for e in ch['entries']:
                if e['author']:
@@ -31,7 +31,7 @@ def generate(filename):
                    del(e['author'])
  
         template = env.get_template('page.html') 
-        with open('html/{}.html'.format(cnt), 'w') as fh:
+        with open('html/archive/{}'.format(cnt), 'w') as fh:
             fh.write(template.render(episode=data))
     except Exception as e:
         print('Exception while processing {}'.format(filename))

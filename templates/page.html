@@ -26,6 +26,11 @@ body {
 .chapter {
   text-align: left;
 }
+.author img {
+  width: 80px;
+  float: right;
+  margin: 10px;
+}
   </style>
 </head>
 <body>
@@ -41,12 +46,14 @@ Published on {{ episode.date }}
        <div class="episode">
            <h3><a href="{{ e.url }}">{{ e.title }}</a></h3> 
            {% if e.author %}
-              by <a href="{{ e.author.linkedin }}">{{ e.author.name }}</a><br>
+               <div class="author">
+                   by <a href="{{ e.author.linkedin }}">{{ e.author.name }}</a><br>
+                   {% if e.author.img %}
+                       <img src="https://developer-weekly.com/{{ e.author.img }}"/>
+                   {% endif %}
+               </div>
            {% endif %}
            {{ e.text }}
-           {% if e.img %}
-           <img src="https://developer-weekly.com/{{ e.img }}" />
-           {% endif %}
        </div>
     {% endfor %}
   </div>

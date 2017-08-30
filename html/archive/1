@@ -26,11 +26,16 @@ body {
 .chapter {
   text-align: left;
 }
+.author img {
+  width: 80px;
+  float: right;
+  margin: 10px;
+}
   </style>
 </head>
 <body>
 <div id="content">
-<h1>Welcome to the Developer Weekly #</h1>
+<h1>Welcome to the Developer Weekly #1</h1>
 Published on 2017-09-01
 
 
@@ -41,10 +46,14 @@ Published on 2017-09-01
        <div class="episode">
            <h3><a href="https://blog.cloudflare.com/going-global-a-localization-case-study-at-cloudflare/">Going Global - a Localization Case Study at Cloudflare</a></h3> 
            
-              by <a href="https://www.linkedin.com/in/clairepytsai/">Claire Tsai</a><br>
+               <div class="author">
+                   by <a href="https://www.linkedin.com/in/clairepytsai/">Claire Tsai</a><br>
+                   
+                       <img src="https://developer-weekly.com/img/claire_tsai.jpg"/>
+                   
+               </div>
            
            It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a realativly large proportiong of the non-Englisg-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total internet traffic served by Cloufflare originates from the USA.
-           
        </div>
     
   </div>
@@ -56,10 +65,14 @@ Published on 2017-09-01
        <div class="episode">
            <h3><a href="https://blog.cloudflare.com/the-wirex-botnet/">The WireX Botnet: How Industry Collaboration Disrupted a DDoS Attack</a></h3> 
            
-              by <a href="https://www.linkedin.com/in/jaimecochran/">Jaime Cochran</a><br>
+               <div class="author">
+                   by <a href="https://www.linkedin.com/in/jaimecochran/">Jaime Cochran</a><br>
+                   
+                       <img src="https://developer-weekly.com/img/jaime_cochran.png"/>
+                   
+               </div>
            
            Apparently this is the first time Android phones were used to launch a Denial of Service Attacks. About 300 legitimate-looking, and actually working applications included additional code that remained active even after the application was moved to the background and could access the Internet. Only the cooperation of several players in the industry allowed the quick identification of the botnet. That made it possible to stop it.
-           
        </div>
     
   </div>
@@ -72,7 +85,6 @@ Published on 2017-09-01
            <h3><a href="https://blog.coursera.org/leadership-skills-future-work/">Leadership Skills for the Future of Work</a></h3> 
            
            In my expereince, a large part of the seemingly technical problems in companies are caused by bad amangement or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.
-           
        </div>
     
   </div>
