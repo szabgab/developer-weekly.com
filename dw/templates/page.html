@@ -1,3 +1,4 @@
+{% set url = request.url_root %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
      content="width=device-width, initial-scale=1, user-scalable=yes">
   <title>{{ episode.subject }}</title>
   {% if email %}
-     <link rel="canonical" href="{{ url }}/archive/{{ episode.issue }}">
+     <link rel="canonical" href="{{ url }}archive/{{ episode.issue }}">
   {% endif %}
   <style>
 body {
@@ -52,10 +53,10 @@ body {
 <h1>{{ episode.subject }} #{{ episode.issue }}</h1>
 <div id="editor">
 Published on {{ episode.date }} by {{ episode.editor.name }}
-<img src="https://developer-weekly.com/{{ episode.editor.img }}"/>
+<img src="{{ url }}{{ episode.editor.img }}"/>
 </div>
 
-View this message on <a href="https://developer-weekly.com/archive/{{ episode.issue }}">our web site</a>.
+View this message on <a href="{{ url }}archive/{{ episode.issue }}">our web site</a>.
 
 <div id="header">
 {% for row in episode.header %}
@@ -74,7 +75,7 @@ View this message on <a href="https://developer-weekly.com/archive/{{ episode.is
                <div class="author">
                    by <a href="{{ e.author.linkedin }}">{{ e.author.name }}</a><br>
                    {% if e.author.img %}
-                       <img src="https://developer-weekly.com/{{ e.author.img }}"/>
+                       <img src="{{ url }}{{ e.author.img }}"/>
                    {% endif %}
                </div>
            {% endif %}

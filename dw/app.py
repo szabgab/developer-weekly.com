@@ -1,12 +1,10 @@
-from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify
+from flask import Flask, render_template, redirect, abort, request, url_for, Response, jsonify, send_from_directory
 #import copy
 #from datetime import datetime
 import os
 import json
 #import re
 import sys
-
-url = 'https://developer-weekly.com'
 
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 sys.path.append(root)
@@ -24,7 +22,6 @@ with open(os.path.join(root, 'src', 'next.json')) as fh:
 @dwapp.route("/")
 def main():
     return render_template('index.html',
-        url  = url,
         next = next['date']
     )
 
@@ -37,7 +34,6 @@ def page(issue = None, email = None):
     try:
         data = tools.read_file(filename, issue)
         return render_template('page.html',
-            url  = url,
             episode=data,
             email=email
         )
@@ -53,8 +49,11 @@ def email():
 @dwapp.errorhandler(404)
 def not_found(e = None):
     return render_template('404.html',
-            url  = url,
     ), 404
 
+# Web server should be configured to serve these directly
+@dwapp.route('/img/<path:path>')
+def send_img(path):
+    return send_from_directory(os.path.join(root, 'html', 'img'), path)
  
 # vim: expandtab
