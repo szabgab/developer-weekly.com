@@ -17,12 +17,12 @@ with open('src/authors.json') as fh:
 
 def generate(filename):
     logging.info('processing {}'.format(filename))
-    cnt = re.search(r'^src/issues/(\d+)\.json$', filename).group(1)
+    issue = re.search(r'^src/issues/(\d+)\.json$', filename).group(1)
     try:
         with open(filename) as fh:
             data = json.load(fh)
 
-        data['id'] = cnt
+        data['issue'] = issue
         data['editor'] = authors[ data['editor'] ]
         for ch in data['chapters']:
             for e in ch['entries']:
@@ -32,7 +32,7 @@ def generate(filename):
                    del(e['author'])
  
         template = env.get_template('page.html') 
-        with open('html/archive/{}'.format(cnt), 'w') as fh:
+        with open('html/archive/{}'.format(issue), 'w') as fh:
             fh.write(template.render(episode=data))
     except Exception as e:
         print('Exception while processing {}'.format(filename))

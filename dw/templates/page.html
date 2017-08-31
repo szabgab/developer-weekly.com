@@ -46,13 +46,13 @@ body {
 </head>
 <body>
 <div id="content">
-<h1>{{ episode.subject }} #{{ episode.id }}</h1>
+<h1>{{ episode.subject }} #{{ episode.issue }}</h1>
 <div id="editor">
 Published on {{ episode.date }} by {{ episode.editor.name }}
 <img src="https://developer-weekly.com/{{ episode.editor.img }}"/>
 </div>
 
-View this message on <a href="https://developer-weekly.com/archive/{{ episode.id }}">our web site</a>.
+View this message on <a href="https://developer-weekly.com/archive/{{ episode.issue }}">our web site</a>.
 
 <div id="header">
 {% for row in episode.header %}
