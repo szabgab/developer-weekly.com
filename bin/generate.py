@@ -10,7 +10,7 @@ logging.basicConfig(filename='generate.log', level=logging.DEBUG)
 
 logging.info('Start')
 env = Environment(
-    loader = FileSystemLoader(os.getcwd() + '/templates'),
+    loader = FileSystemLoader(os.getcwd() + '/dw/templates'),
 )
 with open('src/authors.json') as fh:
     authors = json.load(fh)

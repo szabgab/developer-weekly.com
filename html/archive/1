@@ -49,8 +49,11 @@ body {
 <h1>Welcome to the Developer Weekly #1</h1>
 <div id="editor">
 Published on 2017-09-01 by Gábor Szabó
-                       <img src="https://developer-weekly.com/img/gabor_szabo.png"/>
+<img src="https://developer-weekly.com/img/gabor_szabo.png"/>
 </div>
+
+View this message on <a href="https://developer-weekly.com/archive/1">our web site</a>.
+
 <div id="header">
 
    Hi there and welcome!<br>
@@ -122,6 +125,10 @@ Published on 2017-09-01 by Gábor Szabó
 </div>
 <div id="footer">
 <a href="*|UNSUB|*">Unsubscribe from this list.</a>
+<br>
+*|LIST:DESCRIPTION|*
+<br>
+*|REWARDS|*
 </div>
 
 <script>
