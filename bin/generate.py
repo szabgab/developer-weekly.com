@@ -17,7 +17,7 @@ with open('src/authors.json') as fh:
 
 def generate(filename):
     logging.info('processing {}'.format(filename))
-    cnt = re.search(r'^src/(\d+)\.json$', filename).group(1)
+    cnt = re.search(r'^src/issues/(\d+)\.json$', filename).group(1)
     try:
         with open(filename) as fh:
             data = json.load(fh)
@@ -42,12 +42,8 @@ def generate(filename):
 def run():
 
     episodes = []
-    for filename in glob.glob("src/*.json"):
-        if filename == 'src/next.json':
-            continue
-        if filename == 'src/authors.json':
-            continue
-        if not re.search(r'^src/\d+\.json$', filename):
+    for filename in glob.glob("src/issues/*.json"):
+        if not re.search(r'^src/issues/\d+\.json$', filename):
             raise Exception("Invalid filename {}".format(filename))
         episodes.append( generate(filename) )
     
