@@ -5,6 +5,9 @@
   <meta name="viewport"
      content="width=device-width, initial-scale=1, user-scalable=yes">
   <title>{{ episode.subject }}</title>
+  {% if email %}
+     <link rel="canonical" href="{{ url }}/archive/{{ episode.issue }}">
+  {% endif %}
   <style>
 body {
    text-align: center;

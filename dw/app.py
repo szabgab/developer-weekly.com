@@ -6,6 +6,8 @@ import json
 #import re
 import sys
 
+url = 'https://developer-weekly.com'
+
 root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 sys.path.append(root)
 from dw import tools
@@ -22,6 +24,7 @@ with open(os.path.join(root, 'src', 'next.json')) as fh:
 @dwapp.route("/")
 def main():
     return render_template('index.html',
+        url  = url,
         next = next['date']
     )
 
@@ -33,7 +36,11 @@ def page(issue = None, email = None):
 
     try:
         data = tools.read_file(filename, issue)
-        return render_template('page.html', episode=data, email=email)
+        return render_template('page.html',
+            url  = url,
+            episode=data,
+            email=email
+        )
     except Exception as e:
         print('Exception while processing {}'.format(filename))
         print(e)
@@ -46,7 +53,8 @@ def email():
 @dwapp.errorhandler(404)
 def not_found(e = None):
     return render_template('404.html',
-                       ), 404
+            url  = url,
+    ), 404
 
  
 # vim: expandtab
