@@ -2,3 +2,4 @@
 /dw.egg-info/
 /dw/__pycache__/
 /venv-dw/
+*.pyc
