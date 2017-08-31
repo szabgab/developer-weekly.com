@@ -1,0 +1,11 @@
+{
+    "coursera" : {
+       "name" : "Coursera",
+       "url"  : "https://www.coursera.org/"
+    },
+    "cloudflare" : {
+       "name" : "Cloudflare",
+       "url"  : "https://cloudflare.com/",
+       "img"  : "img/cloudflare.png"
+    }
+}

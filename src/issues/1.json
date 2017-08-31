@@ -6,7 +6,7 @@
        "Hi there and welcome!",
        "I am flattered by all the people who have subscribed to this newsletter even before I published the first episode. Thank you for your trust!",
        "The plan is to follow lots of Engineering blogs by the leading tech companies and include additional articles from experts in the field.",
-       "Some of you might know that I have been running another weekly newsletter for over 6 years, but this is different. There are a lot more sources to select from and the subject is much broader. I am going to cover subject relevant to several fields and thus the name if the newsletter might be a bit misleading. I am going to cover the Development side, the Operations side, but I am also very interested in how monitoring can impact the business. Last, but probably the most important, the culture of the companies and how that might impact on their performance.",
+       "I am going to cover subject relevant to several fields including Development, Operations, and related fields that impact the business. Including culture.",
        "In any case, let's see where does this go!",
        "Enjoy the first episode!"
    ],
@@ -19,6 +19,7 @@
             {
                "title" : "Going Global - a Localization Case Study at Cloudflare",
                "author" : "claire_tsai",
+               "organization" : "cloudflare",
                "text" : "It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a realativly large proportiong of the non-Englisg-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total internet traffic served by Cloufflare originates from the USA.",
                "url" : "https://blog.cloudflare.com/going-global-a-localization-case-study-at-cloudflare/",
                "ts" : "2017.08.23",
@@ -32,6 +33,7 @@
             {
                "title" : "The WireX Botnet: How Industry Collaboration Disrupted a DDoS Attack",
                "author" : "jaime_cochran",
+               "organization" : "cloudflare",
                "text" : "Apparently this is the first time Android phones were used to launch a Denial of Service Attacks. About 300 legitimate-looking, and actually working applications included additional code that remained active even after the application was moved to the background and could access the Internet. Only the cooperation of several players in the industry allowed the quick identification of the botnet. That made it possible to stop it.",
                "url" : "https://blog.cloudflare.com/the-wirex-botnet/",
                "ts" : "2017.08.28",
@@ -45,6 +47,7 @@
             {
                "title" : "Leadership Skills for the Future of Work",
                "author" : "",
+               "organization" : "coursera",
                "text" : "In my expereince, a large part of the seemingly technical problems in companies are caused by bad amangement or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.",
                "url" : "https://blog.coursera.org/leadership-skills-future-work/",
                "ts" : "2017.08.23",
