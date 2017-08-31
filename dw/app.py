@@ -16,12 +16,13 @@ dwapp.config['PROPAGATE_EXCEPTIONS'] = True
 
 with open(os.path.join(root, 'src', 'authors.json')) as fh:
     authors = json.load(fh)
+with open(os.path.join(root, 'src', 'next.json')) as fh:
+    next = json.load(fh)
 
 @dwapp.route("/")
 def main():
-    #cat = _read_json(root + '/html/cat.json')
     return render_template('index.html',
-        next='2017-09-01'
+        next = next['date']
     )
 
 @dwapp.route("/archive/<issue>")
