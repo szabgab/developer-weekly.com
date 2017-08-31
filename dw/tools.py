@@ -1,6 +1,9 @@
 import json
+import os
 
-with open('src/authors.json') as fh:
+root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
+
+with open(os.path.join(root, 'src', 'authors.json')) as fh:
     authors = json.load(fh)
 
 def read_file(filename, issue):
