@@ -49,8 +49,11 @@ body {
 <h1>{{ episode.subject }} #{{ episode.id }}</h1>
 <div id="editor">
 Published on {{ episode.date }} by {{ episode.editor.name }}
-                       <img src="https://developer-weekly.com/{{ episode.editor.img }}"/>
+<img src="https://developer-weekly.com/{{ episode.editor.img }}"/>
 </div>
+
+View this message on <a href="https://developer-weekly.com/archive/{{ episode.id }}">our web site</a>.
+
 <div id="header">
 {% for row in episode.header %}
    {{ row }}<br>
@@ -81,6 +84,10 @@ Published on {{ episode.date }} by {{ episode.editor.name }}
 </div>
 <div id="footer">
 <a href="*|UNSUB|*">Unsubscribe from this list.</a>
+<br>
+*|LIST:DESCRIPTION|*
+<br>
+*|REWARDS|*
 </div>
 
 {% include "google_analytics.html" %}
