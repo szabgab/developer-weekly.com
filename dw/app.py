@@ -26,17 +26,22 @@ def main():
     )
 
 @dwapp.route("/archive/<issue>")
-def page(issue = None):
+def page(issue = None, email = None):
     filename = os.path.join(root, 'src', 'issues', issue) + '.json'
     if not os.path.exists(filename):
         return not_found()
 
     try:
         data = tools.read_file(filename, issue)
-        return render_template('page.html', episode=data)
+        return render_template('page.html', episode=data, email=email)
     except Exception as e:
         print('Exception while processing {}'.format(filename))
         print(e)
+
+@dwapp.route("/email")
+def email():
+   return page('1', True)
+
 
 @dwapp.errorhandler(404)
 def not_found(e = None):

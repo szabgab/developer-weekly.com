@@ -81,13 +81,21 @@ View this message on <a href="https://developer-weekly.com/archive/{{ episode.is
   </div>
 {% endfor %}
 
-</div>
-<div id="footer">
-<a href="*|UNSUB|*">Unsubscribe from this list.</a>
-<br>
-*|LIST:DESCRIPTION|*
-<br>
-*|REWARDS|*
+
+{% if email %}
+   <div id="emailfooter">
+     <a href="*|UNSUB|*">Unsubscribe from this list.</a>
+     <br>
+     *|LIST:DESCRIPTION|*
+     <br>
+     *|REWARDS|*
+   </div>
+{% else %}
+   <div id="footer">
+     {% include "subscribe.html" %}
+   </div>
+{% endif %}
+
 </div>
 
 {% include "google_analytics.html" %}
