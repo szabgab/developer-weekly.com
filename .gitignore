@@ -1,1 +1,4 @@
-generate.log
+/generate.log
+/dw.egg-info/
+/dw/__pycache__/
+/venv-dw/
