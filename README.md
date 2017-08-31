@@ -1,7 +1,8 @@
 Developer Weekly
 ===============
+[![Build Status](https://travis-ci.org/szabgab/developer-weekly.com.png)](https://travis-ci.org/szabgab/developer-weekly.com)
 
-The content of https://developer-weekly.com/
+The content of the [Developer Weekly](https://developer-weekly.com/)
 
 
 SETUP
