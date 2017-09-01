@@ -14,6 +14,36 @@
    ],
    "chapters" : [
       {
+         "title" : "Development",
+         "entries" : [
+            {
+               "title" : "External Library Management or what you learn from leftpad",
+               "author" : "jan_soliman",
+               "organization" : "linkedin",
+               "text" : "Handling external dependencies of your project is important both in the technical and the legal aspect. LinkedIn has a process called 'External Library Request (ELR)' to handle it. It can currently handle Java, JavaScript, C++, Python, and iOS libraries. The article describes how does the process work for Java. They use Apache Ivy to record dependencies. What I was missing is the process for upgrading these libraries and removing them when they are not used any more.",
+               "url" : "https://engineering.linkedin.com/blog/2017/08/external-library-management--making-continuous-delivery-reliable",
+               "ts" : "2017.08.23",
+               "tags" : []
+            }
+         ]
+      },
+      {
+         "title" : "Infrastructure",
+         "entries" : [
+            {
+               "title" : "LogDevice: a distributed data store for logs",
+               "author" : "mark_marchukov",
+               "organization" : "facebook",
+               "text" : "Logging is not just for logs. The same mechanizm can be used for queues, pipelines, maintaining index, etc. At the scale of Facebook this is a huge challenge. LogDevice, a soon to be released as Open Source project, does that.",
+               "url" : "https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/",
+               "ts" : "2017.08.31",
+               "tags" : []
+             }
+
+         ]
+      },
+
+{
          "title" : "Marketing",
          "entries" : [
             {
@@ -27,6 +57,21 @@
             }
          ]
       },
+      {
+         "title" : "Data Science",
+         "entries" : [
+            {
+               "title" : "The era of blind faith in big data must end",
+               "author" : "cathy_oneil",
+               "organization" : "",
+               "text" : "Excellent TED talk about the bias in algorithm and the risks in relying blindly on big data. How we might perpetuate bias when we use past data for forcasting expected success rate of people.",
+               "url" : "https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end",
+               "ts" : "2017.08.20",
+               "tags" : []
+            }
+         ]
+      },
+
       {
          "title" : "Operations",
          "entries" : [
@@ -52,7 +97,17 @@
                "url" : "https://blog.coursera.org/leadership-skills-future-work/",
                "ts" : "2017.08.23",
                "tags" : []
+            },
+            {
+               "title" : "Interview with Dom Price on scaling team culture",
+               "author" : "adam_risman",
+               "organization" : "intercom",
+               "text" : "Growing Atlassian from 400 to over 2,500 employees in 6 global offices. The interview covers issues such as controlling culture in a very diverse team, reducing bureaucracy, faciliate innovation. Pointers to <a href=\"https://www.atlassian.com/company/shipit\">ShipIt</a> that is a 24 hour hackathon that includes everyone: HR, finance, legal, marketing, and the tech people.",
+               "url" : "https://blog.intercom.com/atlassian-dom-price-team-culture/",
+               "ts" : "2017.08.31",
+               "tags" : []
             }
+
          ]
       }
    ]

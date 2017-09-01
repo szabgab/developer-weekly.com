@@ -79,7 +79,7 @@ View this message on <a href="{{ url }}archive/{{ episode.issue }}">our web site
                    {% endif %}
                </div>
            {% endif %}
-           {{ e.text }}
+           {{ e.text|safe }}
        </div>
     {% endfor %}
   </div>

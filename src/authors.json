@@ -18,5 +18,30 @@
         "linkedin": "https://www.linkedin.com/in/jaimecochran/",
         "name": "Jaime Cochran",
         "twitter": "ACKFlags"
+    },
+    "jan_soliman" : {
+        "name" : "Jan Lorenz Soliman",
+        "linkedin" : "https://www.linkedin.com/in/jan-lorenz-soliman-79b94717/",
+        "twitter" : "",
+        "img" : "img/jan_lorenz_soliman.jpg"
+    },
+    "cathy_oneil" : {
+      "name" : "Cathy O'Neil",
+      "twitter" : "mathbabedotorg",
+      "linkedin" : "",
+      "home" : "https://mathbabe.org/",
+      "img" : ""
+    },
+    "mark_marchukov" : {
+       "name" : "Mark Marchukov",
+       "linkedin" : "https://www.linkedin.com/in/mark-marchukov-47475b2/",
+       "twitter" : "",
+       "img" : "img/mark_marchukov.jpg"
+    },
+    "adam_risman" : {
+       "name" : "Adam Risman",
+       "twitter" : "adamrisman",
+       "linkedin" : "https://www.linkedin.com/in/adam-risman-97834218/",
+       "img" : "img/adam_risman.jpg"
     }
 }

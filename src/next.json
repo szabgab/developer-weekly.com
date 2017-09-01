@@ -1,6 +1,7 @@
 {
    "date" : "2017-09-01",
    "subject" : "",
+   "editor" : "gabor_szabo",
    "header" : [
    ],
    "footer" : [
@@ -14,6 +15,7 @@
             {
                "title" : "",
                "author" : "",
+               "organization" : "",
                "text" : "",
                "url" : "",
                "ts" : "2017.09",
