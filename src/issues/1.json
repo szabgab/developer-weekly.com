@@ -20,7 +20,7 @@
                     "author": "mark_marchukov",
                     "organization": "facebook",
                     "tags": [],
-                    "text": "Logging is not just for logs. The same mechanizm can be used for queues, pipelines, maintaining index, etc. At the scale of Facebook this is a huge challenge. LogDevice, a soon to be released as Open Source project, does that.",
+                    "text": "Logging is not just for logs. The same mechanism can be used for queues, pipelines, maintaining index, etc. At the scale of Facebook this is a huge challenge. LogDevice, a soon to be released as Open Source project, does that.",
                     "title": "LogDevice: a distributed data store for logs",
                     "ts": "2017.08.31",
                     "url": "https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/"
@@ -34,7 +34,7 @@
                     "author": "claire_tsai",
                     "organization": "cloudflare",
                     "tags": [],
-                    "text": "It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a realativly large proportiong of the non-Englisg-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total internet traffic served by Cloufflare originates from the USA.",
+                    "text": "It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a relatively large proportion of the non-English-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total Internet traffic served by Cloudflare originates from the USA.",
                     "title": "Going Global - a Localization Case Study at Cloudflare",
                     "ts": "2017.08.23",
                     "url": "https://blog.cloudflare.com/going-global-a-localization-case-study-at-cloudflare/"
@@ -48,7 +48,7 @@
                     "author": "cathy_oneil",
                     "organization": "",
                     "tags": [],
-                    "text": "Excellent TED talk about the bias in algorithm and the risks in relying blindly on big data. How we might perpetuate bias when we use past data for forcasting expected success rate of people.",
+                    "text": "Excellent TED talk about the bias in algorithm and the risks in relying blindly on big data. How we might perpetuate bias when we use past data for forecasting expected success rate of people.",
                     "title": "The era of blind faith in big data must end",
                     "ts": "2017.08.20",
                     "url": "https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end"
@@ -76,7 +76,7 @@
                     "author": "",
                     "organization": "coursera",
                     "tags": [],
-                    "text": "In my expereince, a large part of the seemingly technical problems in companies are caused by bad amangement or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.",
+                    "text": "In my experience, a large part of the seemingly technical problems in companies are caused by bad management or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.",
                     "title": "Leadership Skills for the Future of Work",
                     "ts": "2017.08.23",
                     "url": "https://blog.coursera.org/leadership-skills-future-work/"
@@ -85,7 +85,7 @@
                     "author": "adam_risman",
                     "organization": "intercom",
                     "tags": [],
-                    "text": "Growing Atlassian from 400 to over 2,500 employees in 6 global offices. The interview covers issues such as controlling culture in a very diverse team, reducing bureaucracy, faciliate innovation. Pointers to <a href=\"https://www.atlassian.com/company/shipit\">ShipIt</a> that is a 24 hour hackathon that includes everyone: HR, finance, legal, marketing, and the tech people.",
+                    "text": "Growing Atlassian from 400 to over 2,500 employees in 6 global offices. The interview covers issues such as controlling culture in a very diverse team, reducing bureaucracy, facilitate innovation. Pointers to <a href=\"https://www.atlassian.com/company/shipit\">ShipIt</a> that is a 24 hour hackathon that includes everyone: HR, finance, legal, marketing, and the tech people.",
                     "title": "Interview with Dom Price on scaling team culture",
                     "ts": "2017.08.31",
                     "url": "https://blog.intercom.com/atlassian-dom-price-team-culture/"
