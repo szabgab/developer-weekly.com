@@ -3,3 +3,4 @@
 /dw/__pycache__/
 /venv-dw/
 *.pyc
+*.bak
