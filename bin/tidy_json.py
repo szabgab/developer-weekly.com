@@ -19,5 +19,8 @@ for filename in glob.glob("src/*.json"):
         continue
     tidy(filename)
 
+for filename in glob.glob("src/issues/*.json"):
+    tidy(filename)
+
 # vim: expandtab
 

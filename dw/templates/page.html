@@ -65,22 +65,26 @@ View this message on <a href="{{ url }}archive/{{ episode.issue }}">our web site
 </div>
 
 {% for ch in episode.chapters %}
-  <hr>
   <div class="chapter">
+    <hr>
     <h2>{{ ch.title }}</h2>
     {% for e in ch.entries %}
-       <div class="episode">
-           <h3><a href="{{ e.url }}">{{ e.title }}</a></h3> 
-           {% if e.author %}
-               <div class="author">
-                   by <a href="{{ e.author.linkedin }}">{{ e.author.name }}</a><br>
-                   {% if e.author.img %}
+        <div class="episode">
+            {% if e.author %}
+                {% if e.author.img %}
+                    <div class="author">
                        <img src="{{ url }}{{ e.author.img }}"/>
+                </div>
                    {% endif %}
+            {% endif %}
+            <h3><a href="{{ e.url }}">{{ e.title }}</a></h3> 
+            {% if e.author %}
+               <div class="author">
+                   by <a href="{{ e.author.url }}">{{ e.author.name }}</a><br>
                </div>
-           {% endif %}
-           {{ e.text|safe }}
-       </div>
+            {% endif %}
+            {{ e.text|safe }}
+        </div>
     {% endfor %}
   </div>
 {% endfor %}

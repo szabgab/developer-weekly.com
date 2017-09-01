@@ -5,6 +5,16 @@ root = os.path.dirname((os.path.dirname(os.path.realpath(__file__))))
 
 with open(os.path.join(root, 'src', 'authors.json')) as fh:
     authors = json.load(fh)
+    for a in authors.values():
+       if a['linkedin']:
+          a['url'] = a['linkedin']
+          continue
+       if a['twitter']:
+          a['url'] = 'https://twitter.com/' + a['twitter']
+          continue
+       if a['home']:
+          a['url'] = a['home']
+          continue
 
 def read_file(filename, issue):
     with open(filename) as fh:

@@ -14,8 +14,8 @@ dwapp = Flask(__name__)
 dwapp.config['PROPAGATE_EXCEPTIONS'] = True
 
 
-with open(os.path.join(root, 'src', 'authors.json')) as fh:
-    authors = json.load(fh)
+#with open(os.path.join(root, 'src', 'authors.json')) as fh:
+#    authors = json.load(fh)
 with open(os.path.join(root, 'src', 'next.json')) as fh:
     next = json.load(fh)
 

@@ -1,114 +1,109 @@
 {
-   "date" : "2017-09-01",
-   "subject" : "Welcome to the Developer Weekly",
-   "editor" : "gabor_szabo",
-   "header" : [
-       "Hi there and welcome!",
-       "I am flattered by all the people who have subscribed to this newsletter even before I published the first episode. Thank you for your trust!",
-       "The plan is to follow lots of Engineering blogs by the leading tech companies and include additional articles from experts in the field.",
-       "I am going to cover subject relevant to several fields including Development, Operations, and related fields that impact the business. Including culture.",
-       "In any case, let's see where does this go!",
-       "Enjoy the first episode!"
-   ],
-   "footer" : [
-   ],
-   "chapters" : [
-      {
-         "title" : "Development",
-         "entries" : [
-            {
-               "title" : "External Library Management or what you learn from leftpad",
-               "author" : "jan_soliman",
-               "organization" : "linkedin",
-               "text" : "Handling external dependencies of your project is important both in the technical and the legal aspect. LinkedIn has a process called 'External Library Request (ELR)' to handle it. It can currently handle Java, JavaScript, C++, Python, and iOS libraries. The article describes how does the process work for Java. They use Apache Ivy to record dependencies. What I was missing is the process for upgrading these libraries and removing them when they are not used any more.",
-               "url" : "https://engineering.linkedin.com/blog/2017/08/external-library-management--making-continuous-delivery-reliable",
-               "ts" : "2017.08.23",
-               "tags" : []
-            }
-         ]
-      },
-      {
-         "title" : "Infrastructure",
-         "entries" : [
-            {
-               "title" : "LogDevice: a distributed data store for logs",
-               "author" : "mark_marchukov",
-               "organization" : "facebook",
-               "text" : "Logging is not just for logs. The same mechanizm can be used for queues, pipelines, maintaining index, etc. At the scale of Facebook this is a huge challenge. LogDevice, a soon to be released as Open Source project, does that.",
-               "url" : "https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/",
-               "ts" : "2017.08.31",
-               "tags" : []
-             }
-
-         ]
-      },
-
-{
-         "title" : "Marketing",
-         "entries" : [
-            {
-               "title" : "Going Global - a Localization Case Study at Cloudflare",
-               "author" : "claire_tsai",
-               "organization" : "cloudflare",
-               "text" : "It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a realativly large proportiong of the non-Englisg-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total internet traffic served by Cloufflare originates from the USA.",
-               "url" : "https://blog.cloudflare.com/going-global-a-localization-case-study-at-cloudflare/",
-               "ts" : "2017.08.23",
-               "tags" : []
-            }
-         ]
-      },
-      {
-         "title" : "Data Science",
-         "entries" : [
-            {
-               "title" : "The era of blind faith in big data must end",
-               "author" : "cathy_oneil",
-               "organization" : "",
-               "text" : "Excellent TED talk about the bias in algorithm and the risks in relying blindly on big data. How we might perpetuate bias when we use past data for forcasting expected success rate of people.",
-               "url" : "https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end",
-               "ts" : "2017.08.20",
-               "tags" : []
-            }
-         ]
-      },
-
-      {
-         "title" : "Operations",
-         "entries" : [
-            {
-               "title" : "The WireX Botnet: How Industry Collaboration Disrupted a DDoS Attack",
-               "author" : "jaime_cochran",
-               "organization" : "cloudflare",
-               "text" : "Apparently this is the first time Android phones were used to launch a Denial of Service Attacks. About 300 legitimate-looking, and actually working applications included additional code that remained active even after the application was moved to the background and could access the Internet. Only the cooperation of several players in the industry allowed the quick identification of the botnet. That made it possible to stop it.",
-               "url" : "https://blog.cloudflare.com/the-wirex-botnet/",
-               "ts" : "2017.08.28",
-               "tags" : []
-            }
-         ]
-      },
-      {
-         "title" : "Leadership",
-         "entries" : [
-            {
-               "title" : "Leadership Skills for the Future of Work",
-               "author" : "",
-               "organization" : "coursera",
-               "text" : "In my expereince, a large part of the seemingly technical problems in companies are caused by bad amangement or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.",
-               "url" : "https://blog.coursera.org/leadership-skills-future-work/",
-               "ts" : "2017.08.23",
-               "tags" : []
-            },
-            {
-               "title" : "Interview with Dom Price on scaling team culture",
-               "author" : "adam_risman",
-               "organization" : "intercom",
-               "text" : "Growing Atlassian from 400 to over 2,500 employees in 6 global offices. The interview covers issues such as controlling culture in a very diverse team, reducing bureaucracy, faciliate innovation. Pointers to <a href=\"https://www.atlassian.com/company/shipit\">ShipIt</a> that is a 24 hour hackathon that includes everyone: HR, finance, legal, marketing, and the tech people.",
-               "url" : "https://blog.intercom.com/atlassian-dom-price-team-culture/",
-               "ts" : "2017.08.31",
-               "tags" : []
-            }
-
-         ]
-      }
-   ]
+    "chapters": [
+        {
+            "entries": [
+                {
+                    "author": "jan_soliman",
+                    "organization": "linkedin",
+                    "tags": [],
+                    "text": "Handling external dependencies of your project is important both in the technical and the legal aspect. LinkedIn has a process called 'External Library Request (ELR)' to handle it. It can currently handle Java, JavaScript, C++, Python, and iOS libraries. The article describes how does the process work for Java. They use Apache Ivy to record dependencies. What I was missing is the process for upgrading these libraries and removing them when they are not used any more.",
+                    "title": "External Library Management or what you learn from leftpad",
+                    "ts": "2017.08.23",
+                    "url": "https://engineering.linkedin.com/blog/2017/08/external-library-management--making-continuous-delivery-reliable"
+                }
+            ],
+            "title": "Development"
+        },
+        {
+            "entries": [
+                {
+                    "author": "mark_marchukov",
+                    "organization": "facebook",
+                    "tags": [],
+                    "text": "Logging is not just for logs. The same mechanizm can be used for queues, pipelines, maintaining index, etc. At the scale of Facebook this is a huge challenge. LogDevice, a soon to be released as Open Source project, does that.",
+                    "title": "LogDevice: a distributed data store for logs",
+                    "ts": "2017.08.31",
+                    "url": "https://code.facebook.com/posts/357056558062811/logdevice-a-distributed-data-store-for-logs/"
+                }
+            ],
+            "title": "Infrastructure"
+        },
+        {
+            "entries": [
+                {
+                    "author": "claire_tsai",
+                    "organization": "cloudflare",
+                    "tags": [],
+                    "text": "It is not surprising that localized content works much better than English content. Even in the tech industry where we can expect a realativly large proportiong of the non-Englisg-native speakers to read English well. What is even more interesting to me is to see the distribution of Internet traffic based on countries and based on languages. 19% of the total internet traffic served by Cloufflare originates from the USA.",
+                    "title": "Going Global - a Localization Case Study at Cloudflare",
+                    "ts": "2017.08.23",
+                    "url": "https://blog.cloudflare.com/going-global-a-localization-case-study-at-cloudflare/"
+                }
+            ],
+            "title": "Marketing"
+        },
+        {
+            "entries": [
+                {
+                    "author": "cathy_oneil",
+                    "organization": "",
+                    "tags": [],
+                    "text": "Excellent TED talk about the bias in algorithm and the risks in relying blindly on big data. How we might perpetuate bias when we use past data for forcasting expected success rate of people.",
+                    "title": "The era of blind faith in big data must end",
+                    "ts": "2017.08.20",
+                    "url": "https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end"
+                }
+            ],
+            "title": "Data Science"
+        },
+        {
+            "entries": [
+                {
+                    "author": "jaime_cochran",
+                    "organization": "cloudflare",
+                    "tags": [],
+                    "text": "Apparently this is the first time Android phones were used to launch a Denial of Service Attacks. About 300 legitimate-looking, and actually working applications included additional code that remained active even after the application was moved to the background and could access the Internet. Only the cooperation of several players in the industry allowed the quick identification of the botnet. That made it possible to stop it.",
+                    "title": "The WireX Botnet: How Industry Collaboration Disrupted a DDoS Attack",
+                    "ts": "2017.08.28",
+                    "url": "https://blog.cloudflare.com/the-wirex-botnet/"
+                }
+            ],
+            "title": "Operations"
+        },
+        {
+            "entries": [
+                {
+                    "author": "",
+                    "organization": "coursera",
+                    "tags": [],
+                    "text": "In my expereince, a large part of the seemingly technical problems in companies are caused by bad amangement or lack of leadership. This is a webinar hosted by Coursera on Thursday, September 7th at 10 am PST. might help.",
+                    "title": "Leadership Skills for the Future of Work",
+                    "ts": "2017.08.23",
+                    "url": "https://blog.coursera.org/leadership-skills-future-work/"
+                },
+                {
+                    "author": "adam_risman",
+                    "organization": "intercom",
+                    "tags": [],
+                    "text": "Growing Atlassian from 400 to over 2,500 employees in 6 global offices. The interview covers issues such as controlling culture in a very diverse team, reducing bureaucracy, faciliate innovation. Pointers to <a href=\"https://www.atlassian.com/company/shipit\">ShipIt</a> that is a 24 hour hackathon that includes everyone: HR, finance, legal, marketing, and the tech people.",
+                    "title": "Interview with Dom Price on scaling team culture",
+                    "ts": "2017.08.31",
+                    "url": "https://blog.intercom.com/atlassian-dom-price-team-culture/"
+                }
+            ],
+            "title": "Leadership"
+        }
+    ],
+    "date": "2017-09-01",
+    "editor": "gabor_szabo",
+    "footer": [],
+    "header": [
+        "Hi there and welcome!",
+        "I am flattered by all the people who have subscribed to this newsletter even before I published the first episode. Thank you for your trust!",
+        "The plan is to follow lots of Engineering blogs by the leading tech companies and include additional articles from experts in the field.",
+        "I am going to cover subjects relevant to several fields including Development, Operations, Marketing, Leadership and related fields that impact the business.",
+        "In any case, let's see where does this go!",
+        "Enjoy the first episode!"
+    ],
+    "subject": "Welcome to the Developer Weekly"
 }
