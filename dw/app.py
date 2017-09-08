@@ -46,7 +46,7 @@ def page(issue = None, email = None):
 
 @dwapp.route("/email")
 def email():
-   return page('1', True)
+   return page(issues[-1]['issue'], True)
 
 
 @dwapp.errorhandler(404)
