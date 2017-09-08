@@ -5,6 +5,12 @@
         "name": "Adam Risman",
         "twitter": "adamrisman"
     },
+    "andrew_powell_morse": {
+        "img": "img/andrew_powell_morse.jpg",
+        "linkedin": "https://www.linkedin.com/in/andrewpomo/",
+        "name": "Andrew Powell-Morse",
+        "twitter": ""
+    },
     "cathy_oneil": {
         "home": "https://mathbabe.org/",
         "img": "img/cathy_oneil.jpg",
@@ -17,6 +23,24 @@
         "linkedin": "https://www.linkedin.com/in/clairepytsai/",
         "name": "Claire Tsai",
         "twitter": "clairetsai"
+    },
+    "clarissa_shen": {
+        "img": "img/clarissa_shen",
+        "linkedin": "",
+        "name": "Clarissa Shen",
+        "twitter": ""
+    },
+    "dale_mcdiarmid": {
+        "img": "img/dale_mcdiarmid.jpg",
+        "linkedin": "https://www.linkedin.com/in/dalemcdiarmid/",
+        "name": "Dale McDiarmid",
+        "twitter": ""
+    },
+    "dave_elliman": {
+        "img": "img/dave_elliman.jpg",
+        "linkedin": "https://www.linkedin.com/in/elliman/",
+        "name": "Dave Elliman",
+        "twitter": ""
     },
     "gabor_szabo": {
         "home": "https://szabgab.com/",
@@ -36,6 +60,12 @@
         "img": "img/jan_lorenz_soliman.jpg",
         "linkedin": "https://www.linkedin.com/in/jan-lorenz-soliman-79b94717/",
         "name": "Jan Lorenz Soliman",
+        "twitter": ""
+    },
+    "john_nicol": {
+        "img": "img/john_nicol.jpg",
+        "linkedin": "https://www.linkedin.com/in/johnwnicol/",
+        "name": "John Nicol",
         "twitter": ""
     },
     "mark_marchukov": {

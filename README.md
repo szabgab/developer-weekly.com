@@ -27,4 +27,6 @@ Publish
 * Run ispell
 * Update date in src/next.json
 * Update src/issues.json
-
+* Run `bin/tidy_json.py`
+* Run bin/generate.py to verify the data
+* 

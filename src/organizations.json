@@ -7,5 +7,13 @@
     "coursera": {
         "name": "Coursera",
         "url": "https://www.coursera.org/"
+    },
+    "elastic": {
+        "name": "Elastic Search",
+        "url": ""
+    },
+    "linkedin": {
+        "name": "LinkedIN",
+        "url": "https://www.linkedin.com/"
     }
 }

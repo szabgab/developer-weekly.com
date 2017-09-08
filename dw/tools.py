@@ -12,7 +12,7 @@ with open(os.path.join(root, 'src', 'authors.json')) as fh:
        if a['twitter']:
           a['url'] = 'https://twitter.com/' + a['twitter']
           continue
-       if a['home']:
+       if 'home' in a and a['home']:
           a['url'] = a['home']
           continue
 

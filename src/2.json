@@ -1,0 +1,78 @@
+{
+    "chapters": [
+        {
+            "entries": [
+                {
+                    "author": "clarissa_shen",
+                    "organization": "udacity",
+                    "tags": [],
+                    "text": "There are 2 tracks in the competition: 'Scene Classification Challenge' and a 'Human Skeletal System Keypoints Detection Challenge'. Go for it!",
+                    "title": "Introducing AI Challenger, a $300,000 Global AI Competition for Students",
+                    "ts": "2017.09.07",
+                    "url": "https://blog.udacity.com/2017/09/ai-challenger-global-ai-competition.html"
+                }
+            ],
+            "title": "AI Challenge"
+        },
+        {
+            "entries": [
+                {
+                    "author": "dave_elliman",
+                    "organization": "thoughtworks",
+                    "tags": [],
+                    "text": "Traditional perimeter defenses isn't enough. One needs to think about all the cycle of Prevention -> Detection -> Response -> Recovery -> and then back to more and better Prevention.",
+                    "title": "A lean model for security and security practices",
+                    "ts": "2017.09.01",
+                    "url": "https://www.thoughtworks.com/insights/blog/lean-model-security-and-security-practices"
+                }
+            ],
+            "title": "Security"
+        },
+        {
+            "entries": [
+                {
+                    "author": "john_nicol",
+                    "organization": "linkedin",
+                    "tags": [],
+                    "text": "Looking at flame-graphs and finding the 'hot' methods by mapping the graph to the actual source code. There are a number of specific areas in Java programming (and probably in other languages as well) that are repeatedly the source of slow execution. Finding these and finding a commonly used solution for these can be a win to the company.",
+                    "title": "Common Issue Detection for CPU Profiling",
+                    "ts": "2017.09.05",
+                    "url": "https://engineering.linkedin.com/blog/2017/09/common-issue-detection-for-cpu-profiling"
+                },
+                {
+                    "author": "dale_mcdiarmid",
+                    "organization": "elastic",
+                    "tags": [],
+                    "text": "Out of the box experimenting with the whole ElasticSearch stack including Kibana on a Docker image. Get the layout of the whole system including the web servers, the RDBMS, the logging system, etc.",
+                    "title": "A full stack in One Command",
+                    "ts": "2017.09.05",
+                    "url": "https://www.elastic.co/blog/a-full-stack-in-one-command"
+                }
+            ],
+            "title": "DevOps"
+        },
+        {
+            "entries": [
+                {
+                    "author": "andrew_powell_morse",
+                    "organization": "airbrake",
+                    "tags": [],
+                    "text": "Short list: out of the box ES6 module support and mobile device throttling to WebUSB API support and storage usage statistics. Apparently Chrome has 55% market share.",
+                    "title": "New Development Tools in Chrome 61",
+                    "ts": "2017.09.07",
+                    "url": "https://airbrake.io/blog/software-development/new-development-tools-in-chrome-61"
+                }
+            ],
+            "title": "Development"
+        }
+    ],
+    "date": "2017-09-08",
+    "editor": "gabor_szabo",
+    "footer": [],
+    "header": [
+        "Hello there,",
+        "Do you know a student who would like to get $300,000 for looking at pictures? I know it is a bit more involved than that, but still.",
+        "Enjoy your weekend!"
+    ],
+    "subject": "Try ElasticSearch in a single Docker"
+}
