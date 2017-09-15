@@ -43,7 +43,7 @@
                     "author": "",
                     "organization": "toptal",
                     "tags": [],
-                    "text": "Comparing #Angular2 #React #Ember #Vue in a couple of aspects: Availability of Learning Resources, Popularity, Core Features, Usability, Ease of Integration with other libraries.",
+                    "text": "Comparing Angular2, React, Ember, and Vue in a couple of aspects: Availability of Learning Resources, Popularity, Core Features, Usability, Ease of Integration with other libraries.",
                     "title": "How to Choose the Best Front-end Framework",
                     "ts": "2017.09.14",
                     "url": "https://www.toptal.com/javascript/choosing-best-front-end-framework"
@@ -103,7 +103,7 @@
     "footer": [],
     "header": [
         "Hi there!",
-        "There are several Open Source projects in this episode. I especially like the one about testing Apache Kafka as I am really interested in in '<a href=\"https://code-maven.com/quality-assurance-and-automated-testing-in-open-source-projects\">creating quality software</a>' and seeing what can we learn from Open Source projects.",
+        "There are several Open Source projects in this episode. I especially like the one about testing Apache Kafka as I am really interested in '<a href=\"https://code-maven.com/quality-assurance-and-automated-testing-in-open-source-projects\">creating quality software</a>' and seeing what can we learn from Open Source projects.",
         "Enjoy the reading and your weekend!"
     ],
     "subject": "Octopus, Ducktape, and Apache Kafka"

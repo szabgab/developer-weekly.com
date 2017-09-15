@@ -60,7 +60,7 @@ View this message on <a href="{{ url }}archive/{{ episode.issue }}">our web site
 
 <div id="header">
 {% for row in episode.header %}
-   {{ row }}<br>
+   {{ row|safe }}<br>
 {% endfor %}
 </div>
 
