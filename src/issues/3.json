@@ -3,15 +3,6 @@
         {
             "entries": [
                 {
-                    "author": "bartosz_olchowka",
-                    "organization": "livechat",
-                    "tags": [],
-                    "text": "Octopus is an Open Source knowledge base that uses Markdown and allows for software diagrams.",
-                    "title": "Meet 🐙  Octopus – Internal Wiki with Software Diagrams",
-                    "ts": "2017.09.14",
-                    "url": "https://developers.livechatinc.com/octopus/"
-                },
-                {
                     "author": "derek_hammer",
                     "organization": "square",
                     "tags": [],
@@ -106,5 +97,5 @@
         "There are several Open Source projects in this episode. I especially like the one about testing Apache Kafka as I am really interested in '<a href=\"https://code-maven.com/quality-assurance-and-automated-testing-in-open-source-projects\">creating quality software</a>' and seeing what can we learn from Open Source projects.",
         "Enjoy the reading and your weekend!"
     ],
-    "subject": "Octopus, Ducktape, and Apache Kafka"
+    "subject": "Ducktape and Apache Kafka"
 }
