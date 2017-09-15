@@ -4,6 +4,10 @@
         "name": "Cloudflare",
         "url": "https://cloudflare.com/"
     },
+    "confluent": {
+        "name": "Confluent",
+        "url": "https://www.confluent.io/"
+    },
     "coursera": {
         "name": "Coursera",
         "url": "https://www.coursera.org/"
@@ -15,5 +19,9 @@
     "linkedin": {
         "name": "LinkedIN",
         "url": "https://www.linkedin.com/"
+    },
+    "square": {
+        "name": "Square",
+        "url": "https://squareup.com/"
     }
 }

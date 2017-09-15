@@ -11,6 +11,18 @@
         "name": "Andrew Powell-Morse",
         "twitter": ""
     },
+    "ariel_jackson": {
+        "img": "img/ariel_jackson.jpg",
+        "linkedin": "https://www.linkedin.com/in/ariel-jackson-214a80101/",
+        "name": "Ariel Jackson",
+        "twitter": "arieljaax"
+    },
+    "bartosz_olchowka": {
+        "img": "img/bartosz_olchowka.jpg",
+        "linkedin": "https://www.linkedin.com/in/bartoszo/",
+        "name": "Bartosz Olchówka",
+        "twitter": "bolchowka"
+    },
     "cathy_oneil": {
         "home": "https://mathbabe.org/",
         "img": "img/cathy_oneil.jpg",
@@ -30,6 +42,12 @@
         "name": "Clarissa Shen",
         "twitter": ""
     },
+    "colin_mccabe": {
+        "img": "img/colin_mccabe.jpg",
+        "linkedin": "https://www.linkedin.com/in/mccabecolin/",
+        "name": "Colin McCabe",
+        "twitter": ""
+    },
     "dale_mcdiarmid": {
         "img": "img/dale_mcdiarmid.jpg",
         "linkedin": "https://www.linkedin.com/in/dalemcdiarmid/",
@@ -41,6 +59,12 @@
         "linkedin": "https://www.linkedin.com/in/elliman/",
         "name": "Dave Elliman",
         "twitter": ""
+    },
+    "derek_hammer": {
+        "img": "img/derek_hammer.jpg",
+        "linkedin": "https://www.linkedin.com/in/hammerdr/",
+        "name": "Derek Hammer",
+        "twitter": "hammerdr"
     },
     "gabor_szabo": {
         "home": "https://szabgab.com/",
@@ -67,6 +91,12 @@
         "linkedin": "https://www.linkedin.com/in/johnwnicol/",
         "name": "John Nicol",
         "twitter": ""
+    },
+    "karen_church": {
+        "img": "img/karen_church.jpg",
+        "linkedin": "https://www.linkedin.com/in/churchkaren/",
+        "name": "Karen Church",
+        "twitter": "karenchurch"
     },
     "mark_marchukov": {
         "img": "img/mark_marchukov.jpg",
