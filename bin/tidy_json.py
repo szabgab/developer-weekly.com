@@ -17,6 +17,8 @@ def tidy(filename):
 for filename in glob.glob("src/*.json"):
     if filename == 'src/next.json':
         continue
+    if filename == 'src/person.json':
+        continue
     tidy(filename)
 
 for filename in glob.glob("src/issues/*.json"):

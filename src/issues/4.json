@@ -1,0 +1,139 @@
+{
+    "chapters": [
+        {
+            "entries": [
+                {
+                    "author": "senthil_padmanabhan",
+                    "organization": "ebay",
+                    "tags": [],
+                    "text": "Event little things, such as fonts might have an impact on the load time and especially the perceived load time of a page.",
+                    "title": "eBay's Font Loading Strategy",
+                    "ts": "2017.09.21",
+                    "url": "http://www.ebaytechblog.com/2017/09/21/ebays-font-loading-strategy/"
+                },
+                {
+                    "author": "zachary_friedman",
+                    "organization": "dia",
+                    "tags": [],
+                    "text": "Reading about the process of other companies is always inspirational and allows us to learn something that is rather difficult to learn on your own.",
+                    "title": "How We Deploy Software (at dia)",
+                    "ts": "2017.09.15",
+                    "url": "https://making.dia.com/how-we-deploy-software-39088e6af996"
+                }
+            ],
+            "title": "Deployment"
+        },
+        {
+            "entries": [
+                {
+                    "author": "alister_scott",
+                    "organization": "watirmelon",
+                    "tags": [],
+                    "text": "",
+                    "title": "iOS11 Screen Recording (for bug reports)",
+                    "ts": "2017.09.21",
+                    "url": "https://watirmelon.blog/2017/09/21/ios11-screen-recording-for-bug-reports/"
+                }
+            ],
+            "title": "Testing"
+        },
+        {
+            "entries": [
+                {
+                    "author": "juan_cidade",
+                    "organization": "elastic",
+                    "tags": [],
+                    "text": "User stories are always fascinating.",
+                    "title": "Using Elastic Machine Learning to Automate Complex Data Analysis at Sunhotels",
+                    "ts": "2017.09.21",
+                    "url": "https://www.elastic.co/blog/using-elastic-machine-learning-to-automate-complex-data-analysis-at-sunhotels"
+                },
+                {
+                    "author": "jill_nicholson",
+                    "organization": "chartbeat",
+                    "tags": [],
+                    "text": "When you're on-the-go, you need real-time data being delivered right to your inbox or app, but when you're sitting down to get some quick historical context behind that in-the-moment prompt, the Historical Dashboard delivers everything you need at a glance.",
+                    "title": " The Historical Habit: When and How to Use your Historical Data",
+                    "ts": "2017.09.12",
+                    "url": "http://blog.chartbeat.com/2017/09/12/the-historical-habit-when-and-how-to-use-your-historical-data/"
+                }
+            ],
+            "title": "Data"
+        },
+        {
+            "entries": [
+                {
+                    "author": "emilie_cole",
+                    "organization": "asana",
+                    "tags": [],
+                    "text": "Why is Asana such a good place for women and how can women help each other?",
+                    "title": "Ladies first: Asana is one of the Best Workplaces for Women",
+                    "ts": "2017.09.14",
+                    "url": "https://blog.asana.com/2017/09/asana-great-workplace-women/"
+                }
+            ],
+            "title": "Diversity"
+        },
+        {
+            "entries": [
+                {
+                    "author": "javier_turegano",
+                    "organization": "realestate",
+                    "tags": [],
+                    "text": "If you are interested in having a larger pool of available DevOps engineers and also interested in improving the diversity among the practitioners, try to imitate the Devopsgirls initiative from this Real Estate company.",
+                    "title": "Devopsgirls 2.0",
+                    "ts": "2017.09.22",
+                    "url": "http://rea.tech/devopsgirls-2-0/"
+                }
+            ],
+            "title": "DevOps"
+        },
+        {
+            "entries": [
+                {
+                    "author": "bartosz_olchowka",
+                    "organization": "livechat",
+                    "tags": [],
+                    "text": "Octopus is an Open Source knowledge base that uses Markdown and allows for software diagrams.",
+                    "title": "Meet 🐙  Octopus – Internal Wiki with Software Diagrams",
+                    "ts": "2017.09.14",
+                    "url": "https://developers.livechatinc.com/octopus/"
+                },
+                {
+                    "author": "adam_duvander",
+                    "organization": "zapier",
+                    "tags": [],
+                    "text": "Do you want to make it easy for people to try your language/framework/whatever? Provide them a cloud-based environment to try it together with a cloud-based IDE. The suggestions are: <a href=\"https://c9.io/\">Cloud9</a>, <a href=\"https://codeanywhere.com/\">CodeAnywhere</a>, and <a href=\"https://codenvy.com/\">Codenvy</a>.",
+                    "title": "The 3 Best Cloud IDEs for Backend Developers",
+                    "ts": "2017.09.21",
+                    "url": "https://zapier.com/engineering/best-cloud-ides/"
+                }
+            ],
+            "title": "Development"
+        },
+        {
+            "entries": [
+                {
+                    "author": "rose_kaplan_bomberg",
+                    "organization": "circleci",
+                    "tags": [],
+                    "text": "CircleCI is cloud-based Continuous Integration service. This article provides some nice Dockerfile examples to see how to use Docker on CircleCI though I think the lessons can be applied universally.",
+                    "title": "Getting the Most out of Docker and Workflows, Part 1: Using Docker Effectively on CircleCI",
+                    "ts": "2017.09.21",
+                    "url": "https://circleci.com/blog/using-docker-effectively-on-circleci/"
+                }
+            ],
+            "title": "Continuous Integration"
+        }
+    ],
+    "date": "2017-09-22",
+    "editor": "gabor_szabo",
+    "footer": [],
+    "header": [
+        "Hello there,",
+        "this week I checked. There were more than 100 entries in my feed reader and I am adding more.",
+        "Here are the selected few for your week-end reading.",
+        "Or just enjoy your free time outdoors"
+    ],
+    "subject": "Software Delivery by fashion delivery company"
+}
