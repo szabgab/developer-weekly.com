@@ -3,4 +3,4 @@ python:
   - "3.6"
 install:
    - pip install --editable .
-script: python bin/generate.py
+script: python bin/verify.py
