@@ -29,4 +29,13 @@ Publish
 * Update src/issues.json
 * Run `bin/tidy_json.py`
 * Run bin/verify.py to verify the data
-* 
+
+* Push to GitHub, update on the server, restart server 
+
+* Visit https://us4.admin.mailchimp.com/lists/
+* https://us4.admin.mailchimp.com/campaigns/
+* Select the most recent campaign (checkbx) and select replicate
+  Update the "Campaign name"
+  the "Email subject"
+  template: Code on your own, 
+  Send a test-mail
